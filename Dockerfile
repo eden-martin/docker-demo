@@ -1,5 +1,4 @@
 FROM node:12
-USER root
 WORKDIR /app
 ADD . /app
 RUN npm install
