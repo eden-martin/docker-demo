@@ -1,4 +1,4 @@
-FROM node:12
+FROM edenmartin/nodedock
 WORKDIR /app
 ADD . /app
 RUN npm install
